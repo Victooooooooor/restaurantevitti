@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+.div-mãe {
+    background-color: #ffffff;
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.cadastro {
+    background-color: #222222;
+    width: 500px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.35);
+}
+
+button {
+    width: 320px;
+    padding: 15px;
+    font-size: 15px;
+    margin-top: 20px;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    background-color: #fff;
+}
+
+button:hover {
+    background-color: #1b1b20;
+    color: #fff;
+}
+
+input {
+    width: 300px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+#logo {
+    width: 100px;
+    height: 100px;
+    border-radius: 99999px;
+    margin-bottom: 30px;
+}
+
+.info-senha {
+    color: #5489da;
+    margin-left: -10px;
+}
